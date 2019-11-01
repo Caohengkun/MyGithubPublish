@@ -1,0 +1,78 @@
+alt + 鼠标左键可是设置多光标，实现多行同时输入
+
+标题 表示网页内容内的标题 分六个等级 h1 h2 ...h6 其中h1只能存在一个这个比较重要，字体最大
+h5 h6 在网页中不经常使用
+标签 p双标签<p></p>
+
+10.文本修饰标签
+强调->双标签<strong>加粗处理</strong>  <em>斜体</em>\
+下标：<sub></sub>
+上标:<sup></sup>
+删除文本：<del></del>
+插入文本：<ins></ins>
+11.图片
+<img src="引入图片的地址（可以是在线的图片链接）" alt="当没有图片显示时友好的提示" title="提示信息"
+width="" hight=""代表像素>
+12 路径
+.在路径表示当前路径
+..在路径表示上一级路径
+绝对路径用的时候可以不用写盘符
+比如 E:/web学习/Image/2.jpg  -->/web学习/Image/2.jpg
+13 链接标签
+<a herf = "链接跳转的网页" target ="可以改变网页打开的方式,默认打开在当前网页（覆盖）">承载链接的object</a>
+base ->单标签 ：改变链接的默认行为
+
+14 跳转锚点
+a 标签herf属性值加#可以跳转到对应的h（标题标签）的位置
+#+name属性可以跳转到a标签
+
+15 特殊符号 
+&+字符+；
+&lt;&gt;
+ 
+16,无序列表
+<ul> 
+   <li type="样式 一般用css去控制"></li>  
+</ul>
+1，符合嵌套的规范
+17,有序列表
+<ol type = "表示顺序的样式">
+   <li>
+   </li>
+</ol>
+定义列表
+dl dt dd 列表项需要添加标题和对标题进行描述的内容
+
+18,表格
+
+<table>:表格最外层容器
+<tr>:定义表格的行
+<th>:定义表头
+<td>:定义表格单元
+<caption>:定义表格标题
+表格属性
+border:表格边框
+cellpadding:单元格内空间
+cellspacing：单元格之间的空间
+rowspan：合并行
+colspan:合并列
+align:左右对齐
+valign:上下对齐方式
+
+19表单
+ <form> 表单最外层容器
+<input  type ="控件样式">  输入框
+textarea 多行文本框
+
+
+CSS背景样式
+background-color 背景色
+background-Image 背景图url(背景地址)默认：会水平垂直铺满
+background-repeat 平铺方式
+repeat-x  repeat-y no-repeat
+background-position:背景位置 可以用坐标表示  x,y px  也可以用枚举表示x:left center right y: top center bottom
+background-attachment:背景图随滚动条移动的方式 scroll  fix
+ 
+
+
+
